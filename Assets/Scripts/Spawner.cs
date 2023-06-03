@@ -33,7 +33,7 @@ public class Spawner : MonoBehaviour
     void SpawnEnemy()
     {
         // Calcular una posición aleatoria en el área de juego
-        Vector2 spawnPosition = new Vector2(Random.Range(-10f, 10f), Random.Range(-5f, 5f));
+        Vector2 spawnPosition = transform.position;
 
         // Instanciar un enemigo en la posición aleatoria
         GameObject newEnemy = Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);

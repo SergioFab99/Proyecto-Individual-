@@ -9,7 +9,7 @@ public class EnemyMovement : MonoBehaviour
     private Spawner spawner; // referencia al Spawner
 
     
-    public PlayerController playerController; // referencia al PlayerController
+    public move2 playerController; // referencia al script move2
 
     private Rigidbody2D rb; // referencia al Rigidbody2D
 

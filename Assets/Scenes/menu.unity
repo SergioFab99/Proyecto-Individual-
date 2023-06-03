@@ -220,7 +220,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b91e980712f6c464b9941397ff4f1c6d, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.33
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -578,7 +578,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a91eb01c12104094e932540f2a548a85, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 39efde3b616b7804eadb5d5610342ce1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -764,10 +764,10 @@ RectTransform:
   m_Father: {fileID: 675980066}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.7126, y: 65.2}
-  m_SizeDelta: {x: 201.0179, y: 50.7213}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 9.7126, y: -25.360641}
+  m_SizeDelta: {x: 201.0179, y: 50.721313}
   m_Pivot: {x: 0.54831713, y: 0.5000002}
 --- !u!114 &1135569294
 MonoBehaviour:
