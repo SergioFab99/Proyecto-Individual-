@@ -8,7 +8,7 @@ public class PlayerLife : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+       
     }
 
     // Update is called once per frame
@@ -21,6 +21,7 @@ public class PlayerLife : MonoBehaviour
         if (collision.gameObject.tag == "Enemy1")
         {
             life -= 1;
+            
         }
         if (life == 0)
         {

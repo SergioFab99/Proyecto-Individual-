@@ -10,9 +10,11 @@ public class move2 : MonoBehaviour
     private Vector2 moveInput;
     private Animator animator;
     public int life = 10;
+    [SerializeField] private BarraVida barraVida;
     void Start()
     {
         playerRB = GetComponent<Rigidbody2D>();
+        barraVida.InicializarBarraDeVida(life);
         animator = GetComponent<Animator>();    
     }
 
@@ -39,6 +41,7 @@ public class move2 : MonoBehaviour
         if (collision.gameObject.tag == "Enemy1")
         {
             life--;
+            barraVida.CambiarVidaActual(life);
             if (life == 0)
             {
                 Destroy(gameObject);
