@@ -49,6 +49,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Fondo
+    uniqueID: 3365180555
+    locked: 0
   - name: BG
     uniqueID: 1353063283
     locked: 0
