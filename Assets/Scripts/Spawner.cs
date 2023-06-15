@@ -26,10 +26,14 @@ public class Spawner : MonoBehaviour
     // Verificar si no quedan enemigos en la escena y cargar la escena de victoria
     if (enemyRemaining == 0)
         {
-        SceneManager.LoadScene("Nivel2"); // Reemplaza "VictoryScene" con el nombre de tu escena de victoria
+        SceneManager.LoadScene("Nivel2"); 
+        //si estas en el nivel 2 ,pasar a nivel 3 
+            if (SceneManager.GetActiveScene().name == "Nivel2")
+            {
+                SceneManager.LoadScene("Victory");
+            }
         }
     }
-
     void SpawnEnemy()
     {
         // Calcular una posición aleatoria en el área de juego
