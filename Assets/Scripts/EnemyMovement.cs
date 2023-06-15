@@ -61,9 +61,10 @@ public class EnemyMovement : MonoBehaviour
     }
     void OnDestroy()
     {
-        // si el enemigo es destruido, decrementar el contador de enemigos restantes
-        spawner.enemyRemaining--;
-        //si ya no quedan enemigos ,detener el enemyremaining
+        if(spawner!=null)
+            {
+            spawner.enemyRemaining--;
+            }   
     }
     public void TakeDamage(int damage)
     {
