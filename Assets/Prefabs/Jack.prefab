@@ -172,6 +172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  animator: {fileID: 6670259679672298166}
   life: 10
   barraVida: {fileID: 0}
 --- !u!114 &6670259679672298155

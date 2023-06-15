@@ -8,14 +8,13 @@ public class move2 : MonoBehaviour
     [SerializeField] private float speed = 3f;
     private Rigidbody2D playerRB;
     private Vector2 moveInput;
-    private Animator animator;
+    public Animator animator;
     public int life = 10;
     [SerializeField] private BarraVida barraVida;
     void Start()
     {
         playerRB = GetComponent<Rigidbody2D>();
-        barraVida.InicializarBarraDeVida(life);
-        animator = GetComponent<Animator>();    
+        barraVida.InicializarBarraDeVida(life);    
     }
 
     
