@@ -30,6 +30,10 @@ public class Spawner : MonoBehaviour
         //si estas en el nivel 2 ,pasar a nivel 3 
             if (SceneManager.GetActiveScene().name == "Nivel2")
             {
+                SceneManager.LoadScene("Nivel3");
+            }
+            if (SceneManager.GetActiveScene().name == "Nivel3")
+            {
                 SceneManager.LoadScene("Victory");
             }
         }
